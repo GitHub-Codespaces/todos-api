@@ -4,7 +4,7 @@ const express = require('express');
 const router = express.Router();
 
 router.get("/", function(req, res) {
-  res.send("Welcome to the Todos API");
+  res.send("Remote Interface for To-Do Items");
 });
 
 router.post("/add-item", async function(req, res) {
